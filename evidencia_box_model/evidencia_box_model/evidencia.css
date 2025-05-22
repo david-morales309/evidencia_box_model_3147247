@@ -1,0 +1,49 @@
+*{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    border: black 2px solid;
+    width: 400px;
+    height: auto;
+    background-color: #b9b9b9;
+    margin: 20px auto 20px auto;
+}
+
+.card > img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto 40px auto;
+
+}
+.card .contenedor{
+    margin: 0 auto 10px auto;
+    width: 300px;
+}
+
+.contenedor > h1{
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor > p{
+    display: block;
+    font-size: 14px;
+}
+
+p + a {
+    display: block;
+    background-color: crimson;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
